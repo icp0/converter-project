@@ -1,8 +1,8 @@
-ROUND_DIGITS = 2
+import os
+ROUND_DIGITS = int(os.environ.get("ROUND_DIGITS", 2))
 
 def main():
-    print("v0.6")
+    print("v0.7")
 
 if __name__ == "__main__":
     main()
-
