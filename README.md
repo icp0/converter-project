@@ -1,12 +1,14 @@
-# Конвертер величин
+# Converter Project
 
-Учебный проект для практической работы №2.
+Educational project for practical work 2.
 
-## Запуск
+## Run
 python converter.py
 
-## Формат примеров
-Строки в examples.txt описывают запросы на конвертацию.
+## Configuration
+Configured via ROUND_DIGITS environment variable (default 2).
+Example:
+ROUND_DIGITS=3 python converter.py
 
-## Пакетная конвертация
-Функция `batch_convert("examples.txt")` читает файл и возвращает список результатов.
+## Batch conversion
+Function batch_convert('examples.txt') reads file and returns results.
