@@ -12,3 +12,4 @@ ROUND_DIGITS=3 python converter.py
 
 ## Batch conversion
 Function batch_convert('examples.txt') reads file and returns results.
+asdasasasdasdasd'nasdasasasdasdasd
